@@ -1,29 +1,422 @@
-<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.1//EN" "http://www.w3.org/TR/xhtml11/DTD/xhtml11.dtd">
-<html xmlns="http://www.w3.org/1999/xhtml"><head><title>TestNG Report</title><style type="text/css">table {margin-bottom:10px;border-collapse:collapse;empty-cells:show}th,td {border:1px solid #009;padding:.25em .5em}th {vertical-align:bottom}td {vertical-align:top}table a {font-weight:bold}.stripe td {background-color: #E6EBF9}.num {text-align:right}.passedodd td {background-color: #3F3}.passedeven td {background-color: #0A0}.skippedodd td {background-color: #DDD}.skippedeven td {background-color: #CCC}.failedodd td,.attn {background-color: #F33}.failedeven td,.stripe .attn {background-color: #D00}.stacktrace {white-space:pre;font-family:monospace}.totop {font-size:85%;text-align:center;border-bottom:2px solid #000}</style></head><body><table><tr><th>Test</th><th># Passed</th><th># Skipped</th><th># Failed</th><th>Time (ms)</th><th>Included Groups</th><th>Excluded Groups</th></tr><tr><th colspan="7">Eposly Execution</th></tr><tr><td><a href="#t0">Eposly Test - Parallel</a></td><td class="num">89</td><td class="num">0</td><td class="num">0</td><td class="num">10,001,721</td><td></td><td></td></tr><tr class="stripe"><td><a href="#t1">Eposly Test - Refund And Return Records</a></td><td class="num">22</td><td class="num">0</td><td class="num attn">2</td><td class="num">7,933,546</td><td></td><td></td></tr><tr><td><a href="#t2">Eposly Test</a></td><td class="num">25</td><td class="num">0</td><td class="num">0</td><td class="num">11,922,353</td><td></td><td></td></tr><tr><th>Total</th><th class="num">136</th><th class="num">0</th><th class="num attn">2</th><th class="num">29,857,620</th><th colspan="2"></th></tr></table><table><thead><tr><th>Class</th><th>Method</th><th>Start</th><th>Time (ms)</th></tr></thead><tbody><tr><th colspan="4">Eposly Execution</th></tr></tbody><tbody id="t0"><tr><th colspan="4">Eposly Test - Parallel &#8212; passed</th></tr><tr class="passedeven"><td rowspan="7">com.eposly.test.website.Pos.ClientAccountTest</td><td><a href="#m0">Test_ClientAccount_CreditByManualTransaciton_ExpectedBalanceGetCredited</a></td><td rowspan="1">1717578876836</td><td rowspan="1">147134</td></tr><tr class="passedeven"><td><a href="#m1">Test_ClientAccount_CurrentCurrencyUpdate_ExpectedClientBalanceGetChangedInDifferentCurrency</a></td><td rowspan="2">1717579295336</td><td rowspan="2">135774</td></tr><tr class="passedeven"><td><a href="#m2">Test_ClientAccount_CurrentCurrencyUpdate_ExpectedClientBalanceGetChangedInDifferentCurrency</a></td></tr><tr class="passedeven"><td><a href="#m3">Test_ClientAccount_DebitByManualTransaciton_ExpectedBalanceGetDebited</a></td><td rowspan="1">1717579482718</td><td rowspan="1">122802</td></tr><tr class="passedeven"><td><a href="#m4">Test_ClientAccount_NewTransaction_WithDifferentCurrency</a></td><td rowspan="2">1717579652309</td><td rowspan="2">109807</td></tr><tr class="passedeven"><td><a href="#m5">Test_ClientAccount_NewTransaction_WithDifferentCurrency</a></td></tr><tr class="passedeven"><td><a href="#m6">Test_NewOrderWithClientAccountBalance</a></td><td rowspan="1">1717580005331</td><td rowspan="1">436248</td></tr><tr class="passedodd"><td rowspan="6">com.eposly.test.website.Pos.CouponsTest</td><td><a href="#m7">Test_CreatingNewCoupons_ExpectedNoError</a></td><td rowspan="1">1717578884104</td><td rowspan="1">114905</td></tr><tr class="passedodd"><td><a href="#m8">VerifyCouponOnBundle_ExpectedNoSelectButtonOnCoupon</a></td><td rowspan="1">1717579059428</td><td rowspan="1">379753</td></tr><tr class="passedodd"><td><a href="#m9">VerifyCouponOnNewOrder_ExpectedUserAbleToSelectCouponAndMakePaymentSuccessfully</a></td><td rowspan="1">1717579492188</td><td rowspan="1">434859</td></tr><tr class="passedodd"><td><a href="#m10">VerifyCouponOnNewOrder_IfConfiguredForOtherProduct_ExpectedInvalidIconOnCoupon</a></td><td rowspan="1">1717579988840</td><td rowspan="1">337234</td></tr><tr class="passedodd"><td><a href="#m11">VerifyCouponOnNewOrder_IfCouponFixedPriceIsGreaterThanProductPrice_AndMakePaymentSuccessfully</a></td><td rowspan="1">1717580379760</td><td rowspan="1">426408</td></tr><tr class="passedodd"><td><a href="#m12">VerifyCouponOnNewOrder_IfCouponNotConfigured_ExpectedInvalidIconOnCoupon</a></td><td rowspan="1">1717580856615</td><td rowspan="1">817085</td></tr><tr class="passedeven"><td rowspan="10">com.eposly.test.website.Pos.CustomPaymentTest</td><td><a href="#m13">Test_CustomPayOrderSearch_ExpectedPaymentModeAsCustomPayInOrderSearch</a></td><td rowspan="2">1717583227251</td><td rowspan="2">450895</td></tr><tr class="passedeven"><td><a href="#m14">Test_CustomPayOrderSearch_ExpectedPaymentModeAsCustomPayInOrderSearch</a></td></tr><tr class="passedeven"><td><a href="#m15">Test_CustomPaymentTypeOption_whenCustomAmount_IsLess_ExpectedPartPayment</a></td><td rowspan="2">1717584768509</td><td rowspan="2">419272</td></tr><tr class="passedeven"><td><a href="#m16">Test_CustomPaymentTypeOption_whenCustomAmount_IsLess_ExpectedPartPayment</a></td></tr><tr class="passedeven"><td><a href="#m17">Test_CustomPaymentTypeOption_whenCustomAmount_IsMore_ExpectedException</a></td><td rowspan="2">1717585233862</td><td rowspan="2">546667</td></tr><tr class="passedeven"><td><a href="#m18">Test_CustomPaymentTypeOption_whenCustomAmount_IsMore_ExpectedException</a></td></tr><tr class="passedeven"><td><a href="#m19">Test_NewOrderWithCustomPaymentType__ExpectedCustomPaymentOption_OnTestPage</a></td><td rowspan="2">1717581857132</td><td rowspan="2">415771</td></tr><tr class="passedeven"><td><a href="#m20">Test_NewOrderWithCustomPaymentType__ExpectedCustomPaymentOption_OnTestPage</a></td></tr><tr class="passedeven"><td><a href="#m21">Test_UnableRefundAndReturnForCustomPay</a></td><td rowspan="1">1717582792415</td><td rowspan="1">379131</td></tr><tr class="passedeven"><td><a href="#m22">Test_ValidateCustomPaymentOption_FromCeMetaData_ExpectedCustomPayConfiguration</a></td><td rowspan="1">1717581726172</td><td rowspan="1">84258</td></tr><tr class="passedodd"><td rowspan="11">com.eposly.test.website.Pos.CustomProductPriceTest</td><td><a href="#m23">Test_NewProductConfiguration_WithCustomUnitPriceWithTaxZero_ExpectedNoTaxAddedAfterPriceChanged</a></td><td rowspan="1">1717584418250</td><td rowspan="1">381403</td></tr><tr class="passedodd"><td><a href="#m24">Test_ProductCustomUnitPriceChanges_WithTax10_AfterTax_ExpectedUserAbleToChangeCustomTaxOnOrder</a></td><td rowspan="2">1717586464851</td><td rowspan="2">340060</td></tr><tr class="passedodd"><td><a href="#m25">Test_ProductCustomUnitPriceChanges_WithTax10_AfterTax_ExpectedUserAbleToChangeCustomTaxOnOrder</a></td></tr><tr class="passedodd"><td><a href="#m26">Test_ProductCustomUnitPriceChanges_WithTax10_BeforeTax_ExpectedUserAbleToChangeCustomTaxOnOrder</a></td><td rowspan="2">1717584883106</td><td rowspan="2">1126136</td></tr><tr class="passedodd"><td><a href="#m27">Test_ProductCustomUnitPriceChanges_WithTax10_BeforeTax_ExpectedUserAbleToChangeCustomTaxOnOrder</a></td></tr><tr class="passedodd"><td><a href="#m28">Test_ProductDirectChange_ExpectedError_WhenSavingOrderIFDirectPriceChangeErrorExists</a></td><td rowspan="2">1717587244833</td><td rowspan="2">305345</td></tr><tr class="passedodd"><td><a href="#m29">Test_ProductDirectChange_ExpectedError_WhenSavingOrderIFDirectPriceChangeErrorExists</a></td></tr><tr class="passedodd"><td><a href="#m30">Test_ProductDirectChange_ExpectedUserAble_AbleToChangeDirectPrice</a></td><td rowspan="2">1717587980202</td><td rowspan="2">297691</td></tr><tr class="passedodd"><td><a href="#m31">Test_ProductDirectChange_ExpectedUserAble_AbleToChangeDirectPrice</a></td></tr><tr class="passedodd"><td><a href="#m32">Test_ProductPriceRestrictedDirectChange_ExpectedUserCannotBeAble_ToChangeDirectPrice</a></td><td rowspan="2">1717589158849</td><td rowspan="2">430111</td></tr><tr class="passedodd"><td><a href="#m33">Test_ProductPriceRestrictedDirectChange_ExpectedUserCannotBeAble_ToChangeDirectPrice</a></td></tr><tr class="passedeven"><td rowspan="11">com.eposly.test.website.Pos.EposTest</td><td><a href="#m34">Test_AssertButtonsInMultipleProducts</a></td><td rowspan="1">1717578885569</td><td rowspan="1">416928</td></tr><tr class="passedeven"><td><a href="#m35">Test_AssertIncrease_QuantityByAddingSameProduct_ExpectedIncrease_QuantityNumberForProducts</a></td><td rowspan="1">1717580944510</td><td rowspan="1">380677</td></tr><tr class="passedeven"><td><a href="#m36">Test_AssertQuantityBtns_ExpectedChangeIn_QuantityNumbersForProducts</a></td><td rowspan="1">1717579363801</td><td rowspan="1">538052</td></tr><tr class="passedeven"><td><a href="#m37">Test_CreateANewOrder_WithNewCustomer_AndVerifyCustomerDetails</a></td><td rowspan="1">1717581401324</td><td rowspan="1">403991</td></tr><tr class="passedeven"><td><a href="#m38">Test_CreateAPriceBook_NewOrderKind_InSetup_AndUseItForNewOrder</a></td><td rowspan="1">1717579961666</td><td rowspan="1">60</td></tr><tr class="passedeven"><td><a href="#m39">Test_CreateOrderWithNewCustomerAndVerifyIcons_MLP576_ExpectedIcons</a></td><td rowspan="1">1717581855825</td><td rowspan="1">1044715</td></tr><tr class="passedeven"><td><a href="#m40">Test_NewDiscountBand_ExpectedDiscountBandOnOrder</a></td><td rowspan="1">1717586445134</td><td rowspan="1">428745</td></tr><tr class="passedeven"><td><a href="#m41">Test_NewDiscountBand_SetupInConfiguration</a></td><td rowspan="1">1717580015023</td><td rowspan="1">121691</td></tr><tr class="passedeven"><td><a href="#m42">Test_NewOrderWithExistingCustomerAndOrderKind_AndVerifyRefresh_ExpectedSuccessPayment</a></td><td rowspan="1">1717580194129</td><td rowspan="1">390425</td></tr><tr class="passedeven"><td><a href="#m43">Test_ProductWithZeroAmount_ExpectedOrderCompleted_VerifyInGlobalSearch</a></td><td rowspan="1">1717582957649</td><td rowspan="1">459551</td></tr><tr class="passedeven"><td><a href="#m44">Test_SortProductOnTestPage_MLP966</a></td><td rowspan="1">1717580634093</td><td rowspan="1">260051</td></tr><tr class="passedodd"><td rowspan="3">com.eposly.test.website.Pos.FulFilmentsTest</td><td><a href="#m45">Test_CreateANewOrder_WithInValidShipStationAddress_ExpectedISOError</a></td><td rowspan="1">1717587295130</td><td rowspan="1">561047</td></tr><tr class="passedodd"><td><a href="#m46">Test_CreatingNewFullfilments_InUserLocations_ExpectedNoError</a></td><td rowspan="1">1717586329362</td><td rowspan="1">197910</td></tr><tr class="passedodd"><td><a href="#m47">Test_VerifyProductOrderWithFullfilmentScenario</a></td><td rowspan="1">1717586577330</td><td rowspan="1">652241</td></tr><tr class="passedeven"><td rowspan="6">com.eposly.test.website.Pos.GiftCardTests</td><td><a href="#m48">Test_PreventReturnWithInValidGiftCard_MLP668</a></td><td rowspan="1">1717585870802</td><td rowspan="1">409030</td></tr><tr class="passedeven"><td><a href="#m49">createdGiftCardWithAnyError_AnyPaySuccess</a></td><td rowspan="1">1717587916140</td><td rowspan="1">516216</td></tr><tr class="passedeven"><td><a href="#m50">updateEposlySOVRequiredToNo</a></td><td rowspan="1">1717583462992</td><td rowspan="1">162249</td></tr><tr class="passedeven"><td><a href="#m51">verifyGiftCardCheckRecordInSV</a></td><td rowspan="1">1717588487030</td><td rowspan="1">98019</td></tr><tr class="passedeven"><td><a href="#m52">verifyGiftCardScenarioOrderValueLessThanGiftCardAmount</a></td><td rowspan="1">1717583677458</td><td rowspan="1">1032602</td></tr><tr class="passedeven"><td><a href="#m53">verifyGiftCardScenarioOrderValueMoreThanGiftCardAmount</a></td><td rowspan="1">1717584766123</td><td rowspan="1">1048613</td></tr><tr class="passedodd"><td rowspan="3">com.eposly.test.website.Pos.OrderOverPaymentsTest</td><td><a href="#m54">Test_OverPayPaymentWithLessAmount_ExpectedOverPaymentOrder_MarkAsPartPaidOrder</a></td><td rowspan="1">1717578877001</td><td rowspan="1">416578</td></tr><tr class="passedodd"><td><a href="#m55">verifyOverPayPayment</a></td><td rowspan="1">1717579347089</td><td rowspan="1">407775</td></tr><tr class="passedodd"><td><a href="#m56">verifyOverPayPaymentWithZeroAmount_DisablePayment</a></td><td rowspan="1">1717579805934</td><td rowspan="1">375928</td></tr><tr class="passedeven"><td rowspan="13">com.eposly.test.website.Pos.OrderPaymentsTest</td><td><a href="#m57">Test_AddNewThreeDifferentProductsAnd_VerifyPayment_WithTaxConfiguredInCehSettings_ExpectedSameTaxAppliedOnOrderAmount</a></td><td rowspan="1">1717580251636</td><td rowspan="1">845912</td></tr><tr class="passedeven"><td><a href="#m58">Test_AddingNewProductAndCreateAndOrderToVerifyPayment_ExpectedSuccessPayment</a></td><td rowspan="1">1717581156809</td><td rowspan="1">412177</td></tr><tr class="passedeven"><td><a href="#m59">Test_CCForm_Online_Part_PaymentType</a></td><td rowspan="1">1717581619323</td><td rowspan="1">370865</td></tr><tr class="passedeven"><td><a href="#m60">Test_CCForm_Online_PaymentType</a></td><td rowspan="1">1717582053106</td><td rowspan="1">361353</td></tr><tr class="passedeven"><td><a href="#m61">Test_CyberOnline_PaymentType</a></td><td rowspan="1">1717582477694</td><td rowspan="1">466746</td></tr><tr class="passedeven"><td><a href="#m62">Test_MakePartPaymentToOrderAndProcess_ExpectedOrderStatusAsPartPayment</a></td><td rowspan="1">1717582995442</td><td rowspan="1">371217</td></tr><tr class="passedeven"><td><a href="#m63">Test_StripeForm_Online_PaymentType</a></td><td rowspan="1">1717583422505</td><td rowspan="1">470025</td></tr><tr class="passedeven"><td><a href="#m64">Test_VerifyMultiplePaymentOptions_ExpectedAllPaymentModesFromOrder</a></td><td rowspan="1">1717583952233</td><td rowspan="1">18</td></tr><tr class="passedeven"><td><a href="#m65">verify0Amount_WithCash_ExpectedAllowPayment_0SplitAmount_MLP757</a></td><td rowspan="1">1717584004446</td><td rowspan="1">374761</td></tr><tr class="passedeven"><td><a href="#m66">verify0Amount_WithCheque_ExpectedNoSplitOption_0Amount_MLP757</a></td><td rowspan="1">1717584426726</td><td rowspan="1">547911</td></tr><tr class="passedeven"><td><a href="#m67">verifyChequePaymentType</a></td><td rowspan="1">1717585032926</td><td rowspan="1">611748</td></tr><tr class="passedeven"><td><a href="#m68">verifyCustomerCardClickAndVerifyDetails_MLP581</a></td><td rowspan="1">1717585692625</td><td rowspan="1">26222</td></tr><tr class="passedeven"><td><a href="#m69">verifyExternalCardPaymentType</a></td><td rowspan="1">1717585769473</td><td rowspan="1">618970</td></tr><tr class="passedodd"><td rowspan="8">com.eposly.test.website.Pos.ProductAssetsTest</td><td><a href="#m70">Test_AddingNewAssets_IFNoAssetsConfigured_ExpectedEmptyAssetsList_WhenClickOnSerialNumber_CreateNewAssetFromOrderPage</a></td><td rowspan="1">1717583830209</td><td rowspan="1">520449</td></tr><tr class="passedodd"><td><a href="#m71">Test_CreateAssetsListForProduct_ExpectedUserAbleTOCreateAssetListInUserLocation</a></td><td rowspan="1">1717583384084</td><td rowspan="1">374548</td></tr><tr class="passedodd"><td><a href="#m72">Test_GiftCardSerialNumberVerification_IFAssetsEnable_ExpectedSerialNumberForGiftCard</a></td><td rowspan="1">1717583005090</td><td rowspan="1">329712</td></tr><tr class="passedodd"><td><a href="#m73">Test_ProductAssets_IFAssetsConfiguredForProduct_ExpectedListOfAssets_ToBeShownWhenClickOnSerialNumberOnOrderPage</a></td><td rowspan="1">1717587650230</td><td rowspan="1">308393</td></tr><tr class="passedodd"><td><a href="#m74">Test_ProductSerialNo_IFAssetsDisable_In_NewProductConfAndCeHSettings</a></td><td rowspan="1">1717582792220</td><td rowspan="1">163772</td></tr><tr class="passedodd"><td><a href="#m75">Test_ProductSerialNo_IFAssetsEnable_In_NewProductConfAndCeHSettings</a></td><td rowspan="1">1717582569431</td><td rowspan="1">170730</td></tr><tr class="passedodd"><td><a href="#m76">Test_ProductSerialNo_IFAssetsEnable_In_NewProductConfAndCeHSettings_ExpectedSerialNumber_ToBeShowOnOrderPage</a></td><td rowspan="1">1717586926873</td><td rowspan="1">302539</td></tr><tr class="passedodd"><td><a href="#m77">Test_ProductSerialNumberVerification_IFAssetsDisable_ExpectedNoSerialNumber_ShownOnOrderPage</a></td><td rowspan="1">1717587295208</td><td rowspan="1">305582</td></tr><tr class="passedeven"><td rowspan="10">com.eposly.test.website.Pos.ProductSpecialPriceTest</td><td><a href="#m78">Test_ProductSpecialAmountPrice_ExpectedProductSpecialFixedAmount_GetReflectOnOrder</a></td><td rowspan="1">1717586429513</td><td rowspan="1">341054</td></tr><tr class="passedeven"><td><a href="#m79">Test_ProductSpecialDiscount_ExpectedProductSpecialDiscount_GetReflectOnOrder</a></td><td rowspan="1">1717586825613</td><td rowspan="1">306121</td></tr><tr class="passedeven"><td><a href="#m80">Test_ProductSpecialForOtherLocation_ExpectedNoProductFound</a></td><td rowspan="1">1717580493234</td><td rowspan="1">739831</td></tr><tr class="passedeven"><td><a href="#m81">Test_ProductSpecialUpliftPrice_ExpectedProductSpecialUpLiftAmount_GetReflectOnOrder</a></td><td rowspan="1">1717587185494</td><td rowspan="1">293874</td></tr><tr class="passedeven"><td><a href="#m82">Test_ProductSpecialWithOtherDiscountDisabled_InProductSpecialConfig_ExpectedProductSpecialSectionOpenAutomatically</a></td><td rowspan="3">1717587530231</td><td rowspan="3">304263</td></tr><tr class="passedeven"><td><a href="#m83">Test_ProductSpecialWithOtherDiscountDisabled_InProductSpecialConfig_ExpectedProductSpecialSectionOpenAutomatically</a></td></tr><tr class="passedeven"><td><a href="#m84">Test_ProductSpecialWithOtherDiscountDisabled_InProductSpecialConfig_ExpectedProductSpecialSectionOpenAutomatically</a></td></tr><tr class="passedeven"><td><a href="#m85">testAllDiscountsAvailable_ForNormalProducts_ExpectedNoProductSpecialAvailable</a></td><td rowspan="1">1717581287035</td><td rowspan="1">361907</td></tr><tr class="passedeven"><td><a href="#m86">testAllTypesOfDiscountsAvailable_ForProductWithSpecialOffers</a></td><td rowspan="1">1717581706147</td><td rowspan="1">290198</td></tr><tr class="passedeven"><td><a href="#m87">testNoOtherDiscount_WhenSpecialProductActive_MLP979</a></td><td rowspan="1">1717582051060</td><td rowspan="1">442419</td></tr><tr class="passedodd"><td rowspan="1">com.eposly.utils.HtmlLogger</td><td><a href="#m88">createHtmlLogFile</a></td><td rowspan="1">1717578774389</td><td rowspan="1">323</td></tr></tbody><tbody id="t1"><tr><th colspan="4">Eposly Test - Refund And Return Records &#8212; failed</th></tr><tr class="failedeven"><td rowspan="1">com.eposly.test.website.Pos.refundReturnTests.CreditOrderTest</td><td><a href="#m89">Test_NonReturnableProduct_ExpectedUserCantChangeProductSalesToCredit_MLP986</a></td><td rowspan="1">1717594308221</td><td rowspan="1">308835</td></tr><tr class="failedodd"><td rowspan="1">com.eposly.test.website.Pos.refundReturnTests.ReturnOrdersTest</td><td><a href="#m90">Test_CompleteSingleReturnByCyberOnline</a></td><td rowspan="1">1717595037924</td><td rowspan="1">969938</td></tr><tr><th colspan="4">Eposly Test - Refund And Return Records &#8212; passed</th></tr><tr class="passedeven"><td rowspan="9">com.eposly.test.website.Pos.refundReturnTests.CreditOrderTest</td><td><a href="#m91">TestEnableRefundAndReturn</a></td><td rowspan="1">1717594471453</td><td rowspan="1">220</td></tr><tr class="passedeven"><td><a href="#m92">Test_CreateACreditOnlyOneCreditItem_AndMultipleSales</a></td><td rowspan="1">1717589643729</td><td rowspan="1">528555</td></tr><tr class="passedeven"><td><a href="#m93">Test_CreateACreditOnlyOrder_WhenCreditItem_RefundPayment_ByCheque</a></td><td rowspan="1">1717590224280</td><td rowspan="1">1369053</td></tr><tr class="passedeven"><td><a href="#m94">Test_CreateCreditOrder__AndRefundOrderWithTax_AndVerifyPayments_ExpectedSuccessRefund</a></td><td rowspan="1">1717594990432</td><td rowspan="1">1426920</td></tr><tr class="passedeven"><td><a href="#m95">Test_CreateSingleCreditOnly_MultipleCreditItem_ExpectedFullPaymentIcon</a></td><td rowspan="1">1717591638984</td><td rowspan="1">818409</td></tr><tr class="passedeven"><td><a href="#m96">Test_CreditAndSaleSameProduct_ExpectedZeroPaymentAmount</a></td><td rowspan="1">1717592515440</td><td rowspan="1">428206</td></tr><tr class="passedeven"><td><a href="#m97">Test_CreditOneProductOutOf1AndRefundScenario1_WtihPaymentByCheque</a></td><td rowspan="1">1717592996016</td><td rowspan="1">772685</td></tr><tr class="passedeven"><td><a href="#m98">Test_CreditOneProduct_OutOf3MultipleProductsOnOrder_ExpectedPriceCalculationGetUpdated</a></td><td rowspan="1">1717593818910</td><td rowspan="1">434675</td></tr><tr class="passedeven"><td><a href="#m99">Test_verifyCreditAndExchangeOrder_WithoutRefund</a></td><td rowspan="1">1717594668972</td><td rowspan="1">1721260</td></tr><tr class="passedodd"><td rowspan="9">com.eposly.test.website.Pos.refundReturnTests.RefundOrdersTest</td><td><a href="#m100">Test_CompleteRefundWithMultipleProducts_WithOverPaymentOrder</a></td><td rowspan="1">1717591114659</td><td rowspan="1">834464</td></tr><tr class="passedodd"><td><a href="#m101">Test_RefundAnOrderByCyberOnline</a></td><td rowspan="1">1717591996793</td><td rowspan="1">472448</td></tr><tr class="passedodd"><td><a href="#m102">Test_RefundAnOrderFrom_NewCreatedOrder_ExpectedCompleteRefund</a></td><td rowspan="1">1717594530087</td><td rowspan="1">382675</td></tr><tr class="passedodd"><td><a href="#m103">Test_RefundAnOrderOverPaymentAmountOnly</a></td><td rowspan="1">1717592528025</td><td rowspan="1">686458</td></tr><tr class="passedodd"><td><a href="#m104">Test_RefundEntireOrder_ExpectedRefundOnEntireOrder</a></td><td rowspan="1">1717593320083</td><td rowspan="1">389983</td></tr><tr class="passedodd"><td><a href="#m105">Test_ValidateEnableRefundOnUserLocation_ExpectedReturnConfiguration</a></td><td rowspan="1">1717593268143</td><td rowspan="1">36</td></tr><tr class="passedodd"><td><a href="#m106">Test_VerifyOrderRefund_WithCustomPaymentType_ExpectedRefundProcessSuccess</a></td><td rowspan="2">1717589635991</td><td rowspan="2">692681</td></tr><tr class="passedodd"><td><a href="#m107">Test_VerifyOrderRefund_WithCustomPaymentType_ExpectedRefundProcessSuccess</a></td></tr><tr class="passedodd"><td><a href="#m108">Test_processFullPaidOrder_ThenRefundAnd_VerifyRefundOrderStatus_FromOrderListShownOnHomePage</a></td><td rowspan="1">1717593763327</td><td rowspan="1">612747</td></tr><tr class="passedeven"><td rowspan="4">com.eposly.test.website.Pos.refundReturnTests.ReturnOrdersTest</td><td><a href="#m109">Test_ReturnOfOneProduct_WithinAnOrderThatHasManyProducts_ExpectedReturnOnOnlyOneSelectedProduct</a></td><td rowspan="1">1717596065252</td><td rowspan="1">770889</td></tr><tr class="passedeven"><td><a href="#m110">Test_ReturnWithMultipleProducts_WithOverPaymentOrder</a></td><td rowspan="1">1717594173998</td><td rowspan="1">816829</td></tr><tr class="passedeven"><td><a href="#m111">Test_ValidateEnableReturnOnUserLocation_ExpectedReturnConfiguration</a></td><td rowspan="1">1717593271914</td><td rowspan="1">15</td></tr><tr class="passedeven"><td><a href="#m112">Test_returnOrder_WithReasonSelectedFromDropDown_ExpectedReturnOnOrder_WithReason</a></td><td rowspan="1">1717593323806</td><td rowspan="1">802325</td></tr></tbody><tbody id="t2"><tr><th colspan="4">Eposly Test &#8212; passed</th></tr><tr class="passedeven"><td rowspan="2">com.eposly.test.website.Pos.singletest.CashRegisterTest</td><td><a href="#m113">Test_ClosingSessionCalculations_ExpectedBalanceCalculationShouldMatch</a></td><td rowspan="1">1717596896805</td><td rowspan="1">33</td></tr><tr class="passedeven"><td><a href="#m114">Test_OpeningSessionCalculations_ExpectedSessionOpensWithoutError</a></td><td rowspan="1">1717596945551</td><td rowspan="1">5</td></tr><tr class="passedodd"><td rowspan="6">com.eposly.test.website.Pos.singletest.CehSettingTest</td><td><a href="#m115">Test_CustomGiftCardNo_WhenSOVNumber_IsRequired_ExpectedSOVNumberWhenCreatingGiftCardOrder</a></td><td rowspan="1">1717599283966</td><td rowspan="1">821057</td></tr><tr class="passedodd"><td><a href="#m116">Test_GiftCardSOVNumber_AutoCreation_SOVNotRequired_InCeHSettings</a></td><td rowspan="1">1717600160509</td><td rowspan="1">620872</td></tr><tr class="passedodd"><td><a href="#m117">Test_ProductSerialNumberVerification_IFCeHSettingDisabled</a></td><td rowspan="1">1717602649533</td><td rowspan="1">463495</td></tr><tr class="passedodd"><td><a href="#m118">Test_ProductSerialNumberVerification_IFCeHSettingEnabled</a></td><td rowspan="1">1717604025679</td><td rowspan="1">432286</td></tr><tr class="passedodd"><td><a href="#m119">Test_UserDiscountRestrictionAfterUpdatingInCehSetting</a></td><td rowspan="1">1717596995446</td><td rowspan="1">328400</td></tr><tr class="passedodd"><td><a href="#m120">disableGoogleAPI_ShortNameFalse_ExpectedSNoError</a></td><td rowspan="1">1717608773919</td><td rowspan="1">155933</td></tr><tr class="passedeven"><td rowspan="4">com.eposly.test.website.Pos.singletest.EposSingleTest</td><td><a href="#m121">Test_DisableRefundAndReturnInLocationInUserLocations</a></td><td rowspan="1">1717597382533</td><td rowspan="1">560020</td></tr><tr class="passedeven"><td><a href="#m122">Test_EnableRefundAndReturnInCehSettings</a></td><td rowspan="1">1717600838626</td><td rowspan="1">650313</td></tr><tr class="passedeven"><td><a href="#m123">Test_ReturnButton_EnabledOnUserLocations_ExpectedReturnButtonForOrder</a></td><td rowspan="1">1717602204995</td><td rowspan="1">390357</td></tr><tr class="passedeven"><td><a href="#m124">Test_ReturnRefundDisabledInUserLocations_ExpectedNoReturnButtonForOrder</a></td><td rowspan="1">1717598838299</td><td rowspan="1">388462</td></tr><tr class="passedodd"><td rowspan="13">com.eposly.test.website.Pos.singletest.TaxAndDiscountTest</td><td><a href="#m125">Test_CustomDiscountDisable_WithProductDisableFromLocation_ExpectedUserAbleToApplyDiscounts</a></td><td rowspan="2">1717604510885</td><td rowspan="2">888607</td></tr><tr class="passedodd"><td><a href="#m126">Test_CustomDiscountDisable_WithProductDisableFromLocation_ExpectedUserAbleToApplyDiscounts</a></td></tr><tr class="passedodd"><td><a href="#m127">Test_CustomDiscountEnabled_InUserLocation_WithProductEnableChangeDiscount_ExpectedDiscountLimitRestriction_FromUserLocation</a></td><td rowspan="2">1717598507539</td><td rowspan="2">279095</td></tr><tr class="passedodd"><td><a href="#m128">Test_CustomDiscountEnabled_InUserLocation_WithProductEnableChangeDiscount_ExpectedDiscountLimitRestriction_FromUserLocation</a></td></tr><tr class="passedodd"><td><a href="#m129">Test_CustomDiscountEnabled_WithLimitInUserLocation_WithProductConfiguration_DisableDiscount_ExpectedNoDiscountAppliedOnOrder</a></td><td rowspan="2">1717601867221</td><td rowspan="2">279265</td></tr><tr class="passedodd"><td><a href="#m130">Test_CustomDiscountEnabled_WithLimitInUserLocation_WithProductConfiguration_DisableDiscount_ExpectedNoDiscountAppliedOnOrder</a></td></tr><tr class="passedodd"><td><a href="#m131">Test_DiscountEnableWithProductChangeDiscountBands_ExpectedUserAbleToApply_DiscountBandApplied</a></td><td rowspan="2">1717603164768</td><td rowspan="2">453377</td></tr><tr class="passedodd"><td><a href="#m132">Test_DiscountEnableWithProductChangeDiscountBands_ExpectedUserAbleToApply_DiscountBandApplied</a></td></tr><tr class="passedodd"><td><a href="#m133">Test_UserCustomDiscountApplyAs_DiscountAmountZeroText_WhenDiscountLimitIs100</a></td><td rowspan="1">1717608170198</td><td rowspan="1">553400</td></tr><tr class="passedodd"><td><a href="#m134">Test_UserCustomDiscountApplyAs_ProductAmount_WhenLessThanProductPrice</a></td><td rowspan="1">1717607343849</td><td rowspan="1">333624</td></tr><tr class="passedodd"><td><a href="#m135">Test_UserCustomDiscountApplyAs_ProductDiscountAmount_WhenMoreThanProductPrice_ExpectedLimitRestrictionError</a></td><td rowspan="1">1717607732096</td><td rowspan="1">344588</td></tr><tr class="passedodd"><td><a href="#m136">Test_UserCustomDiscountLimitOnUserLocation_EditOnProductDiscountPercentage_WhenLessThanLimit_ExpectedNoError</a></td><td rowspan="1">1717606344082</td><td rowspan="1">494511</td></tr><tr class="passedodd"><td><a href="#m137">Test_UserCustomDiscountLimit_OnUserLocations_EditOnProductPercentage_WhenMoreThanLimit_ExpectedLimitRestrictionError</a></td><td rowspan="1">1717606888146</td><td rowspan="1">403045</td></tr></tbody></table><h2>Eposly Test - Parallel</h2><h3 id="m0">com.eposly.test.website.Pos.ClientAccountTest#Test_ClientAccount_CreditByManualTransaciton_ExpectedBalanceGetCredited</h3><table class="result"></table><p class="totop"><a href="#summary">back to summary</a></p><h3 id="m1">com.eposly.test.website.Pos.ClientAccountTest#Test_ClientAccount_CurrentCurrencyUpdate_ExpectedClientBalanceGetChangedInDifferentCurrency</h3><table class="result"><tr class="param"><th>Parameter #1</th></tr><tr class="param stripe"><td>USD</td></tr></table><p class="totop"><a href="#summary">back to summary</a></p><h3 id="m2">com.eposly.test.website.Pos.ClientAccountTest#Test_ClientAccount_CurrentCurrencyUpdate_ExpectedClientBalanceGetChangedInDifferentCurrency</h3><table class="result"><tr class="param"><th>Parameter #1</th></tr><tr class="param stripe"><td>GBP</td></tr></table><p class="totop"><a href="#summary">back to summary</a></p><h3 id="m3">com.eposly.test.website.Pos.ClientAccountTest#Test_ClientAccount_DebitByManualTransaciton_ExpectedBalanceGetDebited</h3><table class="result"></table><p class="totop"><a href="#summary">back to summary</a></p><h3 id="m4">com.eposly.test.website.Pos.ClientAccountTest#Test_ClientAccount_NewTransaction_WithDifferentCurrency</h3><table class="result"><tr class="param"><th>Parameter #1</th></tr><tr class="param stripe"><td>GBP</td></tr></table><p class="totop"><a href="#summary">back to summary</a></p><h3 id="m5">com.eposly.test.website.Pos.ClientAccountTest#Test_ClientAccount_NewTransaction_WithDifferentCurrency</h3><table class="result"><tr class="param"><th>Parameter #1</th></tr><tr class="param stripe"><td>USD</td></tr></table><p class="totop"><a href="#summary">back to summary</a></p><h3 id="m6">com.eposly.test.website.Pos.ClientAccountTest#Test_NewOrderWithClientAccountBalance</h3><table class="result"></table><p class="totop"><a href="#summary">back to summary</a></p><h3 id="m7">com.eposly.test.website.Pos.CouponsTest#Test_CreatingNewCoupons_ExpectedNoError</h3><table class="result"></table><p class="totop"><a href="#summary">back to summary</a></p><h3 id="m8">com.eposly.test.website.Pos.CouponsTest#VerifyCouponOnBundle_ExpectedNoSelectButtonOnCoupon</h3><table class="result"></table><p class="totop"><a href="#summary">back to summary</a></p><h3 id="m9">com.eposly.test.website.Pos.CouponsTest#VerifyCouponOnNewOrder_ExpectedUserAbleToSelectCouponAndMakePaymentSuccessfully</h3><table class="result"></table><p class="totop"><a href="#summary">back to summary</a></p><h3 id="m10">com.eposly.test.website.Pos.CouponsTest#VerifyCouponOnNewOrder_IfConfiguredForOtherProduct_ExpectedInvalidIconOnCoupon</h3><table class="result"></table><p class="totop"><a href="#summary">back to summary</a></p><h3 id="m11">com.eposly.test.website.Pos.CouponsTest#VerifyCouponOnNewOrder_IfCouponFixedPriceIsGreaterThanProductPrice_AndMakePaymentSuccessfully</h3><table class="result"></table><p class="totop"><a href="#summary">back to summary</a></p><h3 id="m12">com.eposly.test.website.Pos.CouponsTest#VerifyCouponOnNewOrder_IfCouponNotConfigured_ExpectedInvalidIconOnCoupon</h3><table class="result"></table><p class="totop"><a href="#summary">back to summary</a></p><h3 id="m13">com.eposly.test.website.Pos.CustomPaymentTest#Test_CustomPayOrderSearch_ExpectedPaymentModeAsCustomPayInOrderSearch</h3><table class="result"><tr class="param"><th>Parameter #1</th></tr><tr class="param stripe"><td>Product</td></tr></table><p class="totop"><a href="#summary">back to summary</a></p><h3 id="m14">com.eposly.test.website.Pos.CustomPaymentTest#Test_CustomPayOrderSearch_ExpectedPaymentModeAsCustomPayInOrderSearch</h3><table class="result"><tr class="param"><th>Parameter #1</th></tr><tr class="param stripe"><td>Bundle</td></tr></table><p class="totop"><a href="#summary">back to summary</a></p><h3 id="m15">com.eposly.test.website.Pos.CustomPaymentTest#Test_CustomPaymentTypeOption_whenCustomAmount_IsLess_ExpectedPartPayment</h3><table class="result"><tr class="param"><th>Parameter #1</th></tr><tr class="param stripe"><td>Bundle</td></tr></table><p class="totop"><a href="#summary">back to summary</a></p><h3 id="m16">com.eposly.test.website.Pos.CustomPaymentTest#Test_CustomPaymentTypeOption_whenCustomAmount_IsLess_ExpectedPartPayment</h3><table class="result"><tr class="param"><th>Parameter #1</th></tr><tr class="param stripe"><td>Product</td></tr></table><p class="totop"><a href="#summary">back to summary</a></p><h3 id="m17">com.eposly.test.website.Pos.CustomPaymentTest#Test_CustomPaymentTypeOption_whenCustomAmount_IsMore_ExpectedException</h3><table class="result"><tr class="param"><th>Parameter #1</th></tr><tr class="param stripe"><td>Product</td></tr></table><p class="totop"><a href="#summary">back to summary</a></p><h3 id="m18">com.eposly.test.website.Pos.CustomPaymentTest#Test_CustomPaymentTypeOption_whenCustomAmount_IsMore_ExpectedException</h3><table class="result"><tr class="param"><th>Parameter #1</th></tr><tr class="param stripe"><td>Bundle</td></tr></table><p class="totop"><a href="#summary">back to summary</a></p><h3 id="m19">com.eposly.test.website.Pos.CustomPaymentTest#Test_NewOrderWithCustomPaymentType__ExpectedCustomPaymentOption_OnTestPage</h3><table class="result"><tr class="param"><th>Parameter #1</th></tr><tr class="param stripe"><td>Product</td></tr></table><p class="totop"><a href="#summary">back to summary</a></p><h3 id="m20">com.eposly.test.website.Pos.CustomPaymentTest#Test_NewOrderWithCustomPaymentType__ExpectedCustomPaymentOption_OnTestPage</h3><table class="result"><tr class="param"><th>Parameter #1</th></tr><tr class="param stripe"><td>Bundle</td></tr></table><p class="totop"><a href="#summary">back to summary</a></p><h3 id="m21">com.eposly.test.website.Pos.CustomPaymentTest#Test_UnableRefundAndReturnForCustomPay</h3><table class="result"></table><p class="totop"><a href="#summary">back to summary</a></p><h3 id="m22">com.eposly.test.website.Pos.CustomPaymentTest#Test_ValidateCustomPaymentOption_FromCeMetaData_ExpectedCustomPayConfiguration</h3><table class="result"></table><p class="totop"><a href="#summary">back to summary</a></p><h3 id="m23">com.eposly.test.website.Pos.CustomProductPriceTest#Test_NewProductConfiguration_WithCustomUnitPriceWithTaxZero_ExpectedNoTaxAddedAfterPriceChanged</h3><table class="result"></table><p class="totop"><a href="#summary">back to summary</a></p><h3 id="m24">com.eposly.test.website.Pos.CustomProductPriceTest#Test_ProductCustomUnitPriceChanges_WithTax10_AfterTax_ExpectedUserAbleToChangeCustomTaxOnOrder</h3><table class="result"><tr class="param"><th>Parameter #1</th></tr><tr class="param stripe"><td>Product</td></tr></table><p class="totop"><a href="#summary">back to summary</a></p><h3 id="m25">com.eposly.test.website.Pos.CustomProductPriceTest#Test_ProductCustomUnitPriceChanges_WithTax10_AfterTax_ExpectedUserAbleToChangeCustomTaxOnOrder</h3><table class="result"><tr class="param"><th>Parameter #1</th></tr><tr class="param stripe"><td>Bundle</td></tr></table><p class="totop"><a href="#summary">back to summary</a></p><h3 id="m26">com.eposly.test.website.Pos.CustomProductPriceTest#Test_ProductCustomUnitPriceChanges_WithTax10_BeforeTax_ExpectedUserAbleToChangeCustomTaxOnOrder</h3><table class="result"><tr class="param"><th>Parameter #1</th></tr><tr class="param stripe"><td>Product</td></tr></table><p class="totop"><a href="#summary">back to summary</a></p><h3 id="m27">com.eposly.test.website.Pos.CustomProductPriceTest#Test_ProductCustomUnitPriceChanges_WithTax10_BeforeTax_ExpectedUserAbleToChangeCustomTaxOnOrder</h3><table class="result"><tr class="param"><th>Parameter #1</th></tr><tr class="param stripe"><td>Bundle</td></tr></table><p class="totop"><a href="#summary">back to summary</a></p><h3 id="m28">com.eposly.test.website.Pos.CustomProductPriceTest#Test_ProductDirectChange_ExpectedError_WhenSavingOrderIFDirectPriceChangeErrorExists</h3><table class="result"><tr class="param"><th>Parameter #1</th></tr><tr class="param stripe"><td>Product</td></tr></table><p class="totop"><a href="#summary">back to summary</a></p><h3 id="m29">com.eposly.test.website.Pos.CustomProductPriceTest#Test_ProductDirectChange_ExpectedError_WhenSavingOrderIFDirectPriceChangeErrorExists</h3><table class="result"><tr class="param"><th>Parameter #1</th></tr><tr class="param stripe"><td>Bundle</td></tr></table><p class="totop"><a href="#summary">back to summary</a></p><h3 id="m30">com.eposly.test.website.Pos.CustomProductPriceTest#Test_ProductDirectChange_ExpectedUserAble_AbleToChangeDirectPrice</h3><table class="result"><tr class="param"><th>Parameter #1</th></tr><tr class="param stripe"><td>Product</td></tr></table><p class="totop"><a href="#summary">back to summary</a></p><h3 id="m31">com.eposly.test.website.Pos.CustomProductPriceTest#Test_ProductDirectChange_ExpectedUserAble_AbleToChangeDirectPrice</h3><table class="result"><tr class="param"><th>Parameter #1</th></tr><tr class="param stripe"><td>Bundle</td></tr></table><p class="totop"><a href="#summary">back to summary</a></p><h3 id="m32">com.eposly.test.website.Pos.CustomProductPriceTest#Test_ProductPriceRestrictedDirectChange_ExpectedUserCannotBeAble_ToChangeDirectPrice</h3><table class="result"><tr class="param"><th>Parameter #1</th></tr><tr class="param stripe"><td>Bundle</td></tr></table><p class="totop"><a href="#summary">back to summary</a></p><h3 id="m33">com.eposly.test.website.Pos.CustomProductPriceTest#Test_ProductPriceRestrictedDirectChange_ExpectedUserCannotBeAble_ToChangeDirectPrice</h3><table class="result"><tr class="param"><th>Parameter #1</th></tr><tr class="param stripe"><td>Product</td></tr></table><p class="totop"><a href="#summary">back to summary</a></p><h3 id="m34">com.eposly.test.website.Pos.EposTest#Test_AssertButtonsInMultipleProducts</h3><table class="result"></table><p class="totop"><a href="#summary">back to summary</a></p><h3 id="m35">com.eposly.test.website.Pos.EposTest#Test_AssertIncrease_QuantityByAddingSameProduct_ExpectedIncrease_QuantityNumberForProducts</h3><table class="result"></table><p class="totop"><a href="#summary">back to summary</a></p><h3 id="m36">com.eposly.test.website.Pos.EposTest#Test_AssertQuantityBtns_ExpectedChangeIn_QuantityNumbersForProducts</h3><table class="result"></table><p class="totop"><a href="#summary">back to summary</a></p><h3 id="m37">com.eposly.test.website.Pos.EposTest#Test_CreateANewOrder_WithNewCustomer_AndVerifyCustomerDetails</h3><table class="result"></table><p class="totop"><a href="#summary">back to summary</a></p><h3 id="m38">com.eposly.test.website.Pos.EposTest#Test_CreateAPriceBook_NewOrderKind_InSetup_AndUseItForNewOrder</h3><table class="result"></table><p class="totop"><a href="#summary">back to summary</a></p><h3 id="m39">com.eposly.test.website.Pos.EposTest#Test_CreateOrderWithNewCustomerAndVerifyIcons_MLP576_ExpectedIcons</h3><table class="result"></table><p class="totop"><a href="#summary">back to summary</a></p><h3 id="m40">com.eposly.test.website.Pos.EposTest#Test_NewDiscountBand_ExpectedDiscountBandOnOrder</h3><table class="result"></table><p class="totop"><a href="#summary">back to summary</a></p><h3 id="m41">com.eposly.test.website.Pos.EposTest#Test_NewDiscountBand_SetupInConfiguration</h3><table class="result"></table><p class="totop"><a href="#summary">back to summary</a></p><h3 id="m42">com.eposly.test.website.Pos.EposTest#Test_NewOrderWithExistingCustomerAndOrderKind_AndVerifyRefresh_ExpectedSuccessPayment</h3><table class="result"></table><p class="totop"><a href="#summary">back to summary</a></p><h3 id="m43">com.eposly.test.website.Pos.EposTest#Test_ProductWithZeroAmount_ExpectedOrderCompleted_VerifyInGlobalSearch</h3><table class="result"></table><p class="totop"><a href="#summary">back to summary</a></p><h3 id="m44">com.eposly.test.website.Pos.EposTest#Test_SortProductOnTestPage_MLP966</h3><table class="result"></table><p class="totop"><a href="#summary">back to summary</a></p><h3 id="m45">com.eposly.test.website.Pos.FulFilmentsTest#Test_CreateANewOrder_WithInValidShipStationAddress_ExpectedISOError</h3><table class="result"></table><p class="totop"><a href="#summary">back to summary</a></p><h3 id="m46">com.eposly.test.website.Pos.FulFilmentsTest#Test_CreatingNewFullfilments_InUserLocations_ExpectedNoError</h3><table class="result"></table><p class="totop"><a href="#summary">back to summary</a></p><h3 id="m47">com.eposly.test.website.Pos.FulFilmentsTest#Test_VerifyProductOrderWithFullfilmentScenario</h3><table class="result"></table><p class="totop"><a href="#summary">back to summary</a></p><h3 id="m48">com.eposly.test.website.Pos.GiftCardTests#Test_PreventReturnWithInValidGiftCard_MLP668</h3><table class="result"></table><p class="totop"><a href="#summary">back to summary</a></p><h3 id="m49">com.eposly.test.website.Pos.GiftCardTests#createdGiftCardWithAnyError_AnyPaySuccess</h3><table class="result"></table><p class="totop"><a href="#summary">back to summary</a></p><h3 id="m50">com.eposly.test.website.Pos.GiftCardTests#updateEposlySOVRequiredToNo</h3><table class="result"></table><p class="totop"><a href="#summary">back to summary</a></p><h3 id="m51">com.eposly.test.website.Pos.GiftCardTests#verifyGiftCardCheckRecordInSV</h3><table class="result"></table><p class="totop"><a href="#summary">back to summary</a></p><h3 id="m52">com.eposly.test.website.Pos.GiftCardTests#verifyGiftCardScenarioOrderValueLessThanGiftCardAmount</h3><table class="result"></table><p class="totop"><a href="#summary">back to summary</a></p><h3 id="m53">com.eposly.test.website.Pos.GiftCardTests#verifyGiftCardScenarioOrderValueMoreThanGiftCardAmount</h3><table class="result"></table><p class="totop"><a href="#summary">back to summary</a></p><h3 id="m54">com.eposly.test.website.Pos.OrderOverPaymentsTest#Test_OverPayPaymentWithLessAmount_ExpectedOverPaymentOrder_MarkAsPartPaidOrder</h3><table class="result"></table><p class="totop"><a href="#summary">back to summary</a></p><h3 id="m55">com.eposly.test.website.Pos.OrderOverPaymentsTest#verifyOverPayPayment</h3><table class="result"></table><p class="totop"><a href="#summary">back to summary</a></p><h3 id="m56">com.eposly.test.website.Pos.OrderOverPaymentsTest#verifyOverPayPaymentWithZeroAmount_DisablePayment</h3><table class="result"></table><p class="totop"><a href="#summary">back to summary</a></p><h3 id="m57">com.eposly.test.website.Pos.OrderPaymentsTest#Test_AddNewThreeDifferentProductsAnd_VerifyPayment_WithTaxConfiguredInCehSettings_ExpectedSameTaxAppliedOnOrderAmount</h3><table class="result"></table><p class="totop"><a href="#summary">back to summary</a></p><h3 id="m58">com.eposly.test.website.Pos.OrderPaymentsTest#Test_AddingNewProductAndCreateAndOrderToVerifyPayment_ExpectedSuccessPayment</h3><table class="result"></table><p class="totop"><a href="#summary">back to summary</a></p><h3 id="m59">com.eposly.test.website.Pos.OrderPaymentsTest#Test_CCForm_Online_Part_PaymentType</h3><table class="result"></table><p class="totop"><a href="#summary">back to summary</a></p><h3 id="m60">com.eposly.test.website.Pos.OrderPaymentsTest#Test_CCForm_Online_PaymentType</h3><table class="result"></table><p class="totop"><a href="#summary">back to summary</a></p><h3 id="m61">com.eposly.test.website.Pos.OrderPaymentsTest#Test_CyberOnline_PaymentType</h3><table class="result"></table><p class="totop"><a href="#summary">back to summary</a></p><h3 id="m62">com.eposly.test.website.Pos.OrderPaymentsTest#Test_MakePartPaymentToOrderAndProcess_ExpectedOrderStatusAsPartPayment</h3><table class="result"></table><p class="totop"><a href="#summary">back to summary</a></p><h3 id="m63">com.eposly.test.website.Pos.OrderPaymentsTest#Test_StripeForm_Online_PaymentType</h3><table class="result"></table><p class="totop"><a href="#summary">back to summary</a></p><h3 id="m64">com.eposly.test.website.Pos.OrderPaymentsTest#Test_VerifyMultiplePaymentOptions_ExpectedAllPaymentModesFromOrder</h3><table class="result"></table><p class="totop"><a href="#summary">back to summary</a></p><h3 id="m65">com.eposly.test.website.Pos.OrderPaymentsTest#verify0Amount_WithCash_ExpectedAllowPayment_0SplitAmount_MLP757</h3><table class="result"></table><p class="totop"><a href="#summary">back to summary</a></p><h3 id="m66">com.eposly.test.website.Pos.OrderPaymentsTest#verify0Amount_WithCheque_ExpectedNoSplitOption_0Amount_MLP757</h3><table class="result"></table><p class="totop"><a href="#summary">back to summary</a></p><h3 id="m67">com.eposly.test.website.Pos.OrderPaymentsTest#verifyChequePaymentType</h3><table class="result"></table><p class="totop"><a href="#summary">back to summary</a></p><h3 id="m68">com.eposly.test.website.Pos.OrderPaymentsTest#verifyCustomerCardClickAndVerifyDetails_MLP581</h3><table class="result"></table><p class="totop"><a href="#summary">back to summary</a></p><h3 id="m69">com.eposly.test.website.Pos.OrderPaymentsTest#verifyExternalCardPaymentType</h3><table class="result"></table><p class="totop"><a href="#summary">back to summary</a></p><h3 id="m70">com.eposly.test.website.Pos.ProductAssetsTest#Test_AddingNewAssets_IFNoAssetsConfigured_ExpectedEmptyAssetsList_WhenClickOnSerialNumber_CreateNewAssetFromOrderPage</h3><table class="result"></table><p class="totop"><a href="#summary">back to summary</a></p><h3 id="m71">com.eposly.test.website.Pos.ProductAssetsTest#Test_CreateAssetsListForProduct_ExpectedUserAbleTOCreateAssetListInUserLocation</h3><table class="result"></table><p class="totop"><a href="#summary">back to summary</a></p><h3 id="m72">com.eposly.test.website.Pos.ProductAssetsTest#Test_GiftCardSerialNumberVerification_IFAssetsEnable_ExpectedSerialNumberForGiftCard</h3><table class="result"></table><p class="totop"><a href="#summary">back to summary</a></p><h3 id="m73">com.eposly.test.website.Pos.ProductAssetsTest#Test_ProductAssets_IFAssetsConfiguredForProduct_ExpectedListOfAssets_ToBeShownWhenClickOnSerialNumberOnOrderPage</h3><table class="result"></table><p class="totop"><a href="#summary">back to summary</a></p><h3 id="m74">com.eposly.test.website.Pos.ProductAssetsTest#Test_ProductSerialNo_IFAssetsDisable_In_NewProductConfAndCeHSettings</h3><table class="result"></table><p class="totop"><a href="#summary">back to summary</a></p><h3 id="m75">com.eposly.test.website.Pos.ProductAssetsTest#Test_ProductSerialNo_IFAssetsEnable_In_NewProductConfAndCeHSettings</h3><table class="result"></table><p class="totop"><a href="#summary">back to summary</a></p><h3 id="m76">com.eposly.test.website.Pos.ProductAssetsTest#Test_ProductSerialNo_IFAssetsEnable_In_NewProductConfAndCeHSettings_ExpectedSerialNumber_ToBeShowOnOrderPage</h3><table class="result"></table><p class="totop"><a href="#summary">back to summary</a></p><h3 id="m77">com.eposly.test.website.Pos.ProductAssetsTest#Test_ProductSerialNumberVerification_IFAssetsDisable_ExpectedNoSerialNumber_ShownOnOrderPage</h3><table class="result"></table><p class="totop"><a href="#summary">back to summary</a></p><h3 id="m78">com.eposly.test.website.Pos.ProductSpecialPriceTest#Test_ProductSpecialAmountPrice_ExpectedProductSpecialFixedAmount_GetReflectOnOrder</h3><table class="result"></table><p class="totop"><a href="#summary">back to summary</a></p><h3 id="m79">com.eposly.test.website.Pos.ProductSpecialPriceTest#Test_ProductSpecialDiscount_ExpectedProductSpecialDiscount_GetReflectOnOrder</h3><table class="result"></table><p class="totop"><a href="#summary">back to summary</a></p><h3 id="m80">com.eposly.test.website.Pos.ProductSpecialPriceTest#Test_ProductSpecialForOtherLocation_ExpectedNoProductFound</h3><table class="result"></table><p class="totop"><a href="#summary">back to summary</a></p><h3 id="m81">com.eposly.test.website.Pos.ProductSpecialPriceTest#Test_ProductSpecialUpliftPrice_ExpectedProductSpecialUpLiftAmount_GetReflectOnOrder</h3><table class="result"></table><p class="totop"><a href="#summary">back to summary</a></p><h3 id="m82">com.eposly.test.website.Pos.ProductSpecialPriceTest#Test_ProductSpecialWithOtherDiscountDisabled_InProductSpecialConfig_ExpectedProductSpecialSectionOpenAutomatically</h3><table class="result"><tr class="param"><th>Parameter #1</th></tr><tr class="param stripe"><td>Discount</td></tr></table><p class="totop"><a href="#summary">back to summary</a></p><h3 id="m83">com.eposly.test.website.Pos.ProductSpecialPriceTest#Test_ProductSpecialWithOtherDiscountDisabled_InProductSpecialConfig_ExpectedProductSpecialSectionOpenAutomatically</h3><table class="result"><tr class="param"><th>Parameter #1</th></tr><tr class="param stripe"><td>Fixed</td></tr></table><p class="totop"><a href="#summary">back to summary</a></p><h3 id="m84">com.eposly.test.website.Pos.ProductSpecialPriceTest#Test_ProductSpecialWithOtherDiscountDisabled_InProductSpecialConfig_ExpectedProductSpecialSectionOpenAutomatically</h3><table class="result"><tr class="param"><th>Parameter #1</th></tr><tr class="param stripe"><td>Uplift</td></tr></table><p class="totop"><a href="#summary">back to summary</a></p><h3 id="m85">com.eposly.test.website.Pos.ProductSpecialPriceTest#testAllDiscountsAvailable_ForNormalProducts_ExpectedNoProductSpecialAvailable</h3><table class="result"></table><p class="totop"><a href="#summary">back to summary</a></p><h3 id="m86">com.eposly.test.website.Pos.ProductSpecialPriceTest#testAllTypesOfDiscountsAvailable_ForProductWithSpecialOffers</h3><table class="result"></table><p class="totop"><a href="#summary">back to summary</a></p><h3 id="m87">com.eposly.test.website.Pos.ProductSpecialPriceTest#testNoOtherDiscount_WhenSpecialProductActive_MLP979</h3><table class="result"></table><p class="totop"><a href="#summary">back to summary</a></p><h3 id="m88">com.eposly.utils.HtmlLogger#createHtmlLogFile</h3><table class="result"></table><p class="totop"><a href="#summary">back to summary</a></p><h2>Eposly Test - Refund And Return Records</h2><h3 id="m89">com.eposly.test.website.Pos.refundReturnTests.CreditOrderTest#Test_NonReturnableProduct_ExpectedUserCantChangeProductSalesToCredit_MLP986</h3><table class="result"><tr><th>Exception</th></tr><tr><td><div class="stacktrace">org.openqa.selenium.NoSuchSessionException: Session ID is null. Using WebDriver after calling quit()?
-Build info: version: &apos;3.4.0&apos;, revision: &apos;unknown&apos;, time: &apos;unknown&apos;
-System info: host: &apos;DESKTOP-4S8KDGS&apos;, ip: &apos;192.168.1.20&apos;, os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;1.8.0_202&apos;
-Driver info: driver.version: EPOSWebsiteDriver
-	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:131)
-	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:82)
-	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:637)
-	at org.openqa.selenium.remote.RemoteWebDriver.findElements(RemoteWebDriver.java:437)
-	at org.openqa.selenium.remote.RemoteWebDriver.findElementsByXPath(RemoteWebDriver.java:513)
-	at org.openqa.selenium.By$ByXPath.findElements(By.java:356)
-	at org.openqa.selenium.remote.RemoteWebDriver.findElements(RemoteWebDriver.java:398)
-	at com.eposly.driver.website.EPOSWebsiteDriver.findElements(EPOSWebsiteDriver.java:1426)
-	at com.eposly.website.pages.CommonPages.EposHomePage.verifyButtonChangedToCredit(EposHomePage.java:2694)
-	at com.eposly.test.website.Pos.refundReturnTests.CreditOrderTest.Test_NonReturnableProduct_ExpectedUserCantChangeProductSalesToCredit_MLP986(CreditOrderTest.java:180)
-	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:511)
-	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
-	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
-	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
-	at java.lang.Thread.run(Thread.java:748)
-... Removed 7 stack frames</div></td></tr></table><p class="totop"><a href="#summary">back to summary</a></p><h3 id="m90">com.eposly.test.website.Pos.refundReturnTests.ReturnOrdersTest#Test_CompleteSingleReturnByCyberOnline</h3><table class="result"><tr><th>Exception</th></tr><tr><td><div class="stacktrace">java.lang.InterruptedException: returnFirstProduct() : missing returnReasonDropdown
-	at com.eposly.website.pages.CommonPages.EposHomePage.returnFirstProduct(EposHomePage.java:2343)
-	at com.eposly.test.website.Pos.refundReturnTests.ReturnOrdersTest.Test_CompleteSingleReturnByCyberOnline(ReturnOrdersTest.java:101)
-	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:511)
-	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
-	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
-	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
-	at java.lang.Thread.run(Thread.java:748)
-... Removed 7 stack frames</div></td></tr></table><p class="totop"><a href="#summary">back to summary</a></p><h3 id="m91">com.eposly.test.website.Pos.refundReturnTests.CreditOrderTest#TestEnableRefundAndReturn</h3><table class="result"></table><p class="totop"><a href="#summary">back to summary</a></p><h3 id="m92">com.eposly.test.website.Pos.refundReturnTests.CreditOrderTest#Test_CreateACreditOnlyOneCreditItem_AndMultipleSales</h3><table class="result"></table><p class="totop"><a href="#summary">back to summary</a></p><h3 id="m93">com.eposly.test.website.Pos.refundReturnTests.CreditOrderTest#Test_CreateACreditOnlyOrder_WhenCreditItem_RefundPayment_ByCheque</h3><table class="result"></table><p class="totop"><a href="#summary">back to summary</a></p><h3 id="m94">com.eposly.test.website.Pos.refundReturnTests.CreditOrderTest#Test_CreateCreditOrder__AndRefundOrderWithTax_AndVerifyPayments_ExpectedSuccessRefund</h3><table class="result"></table><p class="totop"><a href="#summary">back to summary</a></p><h3 id="m95">com.eposly.test.website.Pos.refundReturnTests.CreditOrderTest#Test_CreateSingleCreditOnly_MultipleCreditItem_ExpectedFullPaymentIcon</h3><table class="result"></table><p class="totop"><a href="#summary">back to summary</a></p><h3 id="m96">com.eposly.test.website.Pos.refundReturnTests.CreditOrderTest#Test_CreditAndSaleSameProduct_ExpectedZeroPaymentAmount</h3><table class="result"></table><p class="totop"><a href="#summary">back to summary</a></p><h3 id="m97">com.eposly.test.website.Pos.refundReturnTests.CreditOrderTest#Test_CreditOneProductOutOf1AndRefundScenario1_WtihPaymentByCheque</h3><table class="result"></table><p class="totop"><a href="#summary">back to summary</a></p><h3 id="m98">com.eposly.test.website.Pos.refundReturnTests.CreditOrderTest#Test_CreditOneProduct_OutOf3MultipleProductsOnOrder_ExpectedPriceCalculationGetUpdated</h3><table class="result"></table><p class="totop"><a href="#summary">back to summary</a></p><h3 id="m99">com.eposly.test.website.Pos.refundReturnTests.CreditOrderTest#Test_verifyCreditAndExchangeOrder_WithoutRefund</h3><table class="result"></table><p class="totop"><a href="#summary">back to summary</a></p><h3 id="m100">com.eposly.test.website.Pos.refundReturnTests.RefundOrdersTest#Test_CompleteRefundWithMultipleProducts_WithOverPaymentOrder</h3><table class="result"></table><p class="totop"><a href="#summary">back to summary</a></p><h3 id="m101">com.eposly.test.website.Pos.refundReturnTests.RefundOrdersTest#Test_RefundAnOrderByCyberOnline</h3><table class="result"></table><p class="totop"><a href="#summary">back to summary</a></p><h3 id="m102">com.eposly.test.website.Pos.refundReturnTests.RefundOrdersTest#Test_RefundAnOrderFrom_NewCreatedOrder_ExpectedCompleteRefund</h3><table class="result"></table><p class="totop"><a href="#summary">back to summary</a></p><h3 id="m103">com.eposly.test.website.Pos.refundReturnTests.RefundOrdersTest#Test_RefundAnOrderOverPaymentAmountOnly</h3><table class="result"></table><p class="totop"><a href="#summary">back to summary</a></p><h3 id="m104">com.eposly.test.website.Pos.refundReturnTests.RefundOrdersTest#Test_RefundEntireOrder_ExpectedRefundOnEntireOrder</h3><table class="result"></table><p class="totop"><a href="#summary">back to summary</a></p><h3 id="m105">com.eposly.test.website.Pos.refundReturnTests.RefundOrdersTest#Test_ValidateEnableRefundOnUserLocation_ExpectedReturnConfiguration</h3><table class="result"></table><p class="totop"><a href="#summary">back to summary</a></p><h3 id="m106">com.eposly.test.website.Pos.refundReturnTests.RefundOrdersTest#Test_VerifyOrderRefund_WithCustomPaymentType_ExpectedRefundProcessSuccess</h3><table class="result"><tr class="param"><th>Parameter #1</th></tr><tr class="param stripe"><td>Product</td></tr></table><p class="totop"><a href="#summary">back to summary</a></p><h3 id="m107">com.eposly.test.website.Pos.refundReturnTests.RefundOrdersTest#Test_VerifyOrderRefund_WithCustomPaymentType_ExpectedRefundProcessSuccess</h3><table class="result"><tr class="param"><th>Parameter #1</th></tr><tr class="param stripe"><td>Bundle</td></tr></table><p class="totop"><a href="#summary">back to summary</a></p><h3 id="m108">com.eposly.test.website.Pos.refundReturnTests.RefundOrdersTest#Test_processFullPaidOrder_ThenRefundAnd_VerifyRefundOrderStatus_FromOrderListShownOnHomePage</h3><table class="result"></table><p class="totop"><a href="#summary">back to summary</a></p><h3 id="m109">com.eposly.test.website.Pos.refundReturnTests.ReturnOrdersTest#Test_ReturnOfOneProduct_WithinAnOrderThatHasManyProducts_ExpectedReturnOnOnlyOneSelectedProduct</h3><table class="result"></table><p class="totop"><a href="#summary">back to summary</a></p><h3 id="m110">com.eposly.test.website.Pos.refundReturnTests.ReturnOrdersTest#Test_ReturnWithMultipleProducts_WithOverPaymentOrder</h3><table class="result"></table><p class="totop"><a href="#summary">back to summary</a></p><h3 id="m111">com.eposly.test.website.Pos.refundReturnTests.ReturnOrdersTest#Test_ValidateEnableReturnOnUserLocation_ExpectedReturnConfiguration</h3><table class="result"></table><p class="totop"><a href="#summary">back to summary</a></p><h3 id="m112">com.eposly.test.website.Pos.refundReturnTests.ReturnOrdersTest#Test_returnOrder_WithReasonSelectedFromDropDown_ExpectedReturnOnOrder_WithReason</h3><table class="result"></table><p class="totop"><a href="#summary">back to summary</a></p><h2>Eposly Test</h2><h3 id="m113">com.eposly.test.website.Pos.singletest.CashRegisterTest#Test_ClosingSessionCalculations_ExpectedBalanceCalculationShouldMatch</h3><table class="result"></table><p class="totop"><a href="#summary">back to summary</a></p><h3 id="m114">com.eposly.test.website.Pos.singletest.CashRegisterTest#Test_OpeningSessionCalculations_ExpectedSessionOpensWithoutError</h3><table class="result"></table><p class="totop"><a href="#summary">back to summary</a></p><h3 id="m115">com.eposly.test.website.Pos.singletest.CehSettingTest#Test_CustomGiftCardNo_WhenSOVNumber_IsRequired_ExpectedSOVNumberWhenCreatingGiftCardOrder</h3><table class="result"></table><p class="totop"><a href="#summary">back to summary</a></p><h3 id="m116">com.eposly.test.website.Pos.singletest.CehSettingTest#Test_GiftCardSOVNumber_AutoCreation_SOVNotRequired_InCeHSettings</h3><table class="result"></table><p class="totop"><a href="#summary">back to summary</a></p><h3 id="m117">com.eposly.test.website.Pos.singletest.CehSettingTest#Test_ProductSerialNumberVerification_IFCeHSettingDisabled</h3><table class="result"></table><p class="totop"><a href="#summary">back to summary</a></p><h3 id="m118">com.eposly.test.website.Pos.singletest.CehSettingTest#Test_ProductSerialNumberVerification_IFCeHSettingEnabled</h3><table class="result"></table><p class="totop"><a href="#summary">back to summary</a></p><h3 id="m119">com.eposly.test.website.Pos.singletest.CehSettingTest#Test_UserDiscountRestrictionAfterUpdatingInCehSetting</h3><table class="result"></table><p class="totop"><a href="#summary">back to summary</a></p><h3 id="m120">com.eposly.test.website.Pos.singletest.CehSettingTest#disableGoogleAPI_ShortNameFalse_ExpectedSNoError</h3><table class="result"></table><p class="totop"><a href="#summary">back to summary</a></p><h3 id="m121">com.eposly.test.website.Pos.singletest.EposSingleTest#Test_DisableRefundAndReturnInLocationInUserLocations</h3><table class="result"></table><p class="totop"><a href="#summary">back to summary</a></p><h3 id="m122">com.eposly.test.website.Pos.singletest.EposSingleTest#Test_EnableRefundAndReturnInCehSettings</h3><table class="result"></table><p class="totop"><a href="#summary">back to summary</a></p><h3 id="m123">com.eposly.test.website.Pos.singletest.EposSingleTest#Test_ReturnButton_EnabledOnUserLocations_ExpectedReturnButtonForOrder</h3><table class="result"></table><p class="totop"><a href="#summary">back to summary</a></p><h3 id="m124">com.eposly.test.website.Pos.singletest.EposSingleTest#Test_ReturnRefundDisabledInUserLocations_ExpectedNoReturnButtonForOrder</h3><table class="result"></table><p class="totop"><a href="#summary">back to summary</a></p><h3 id="m125">com.eposly.test.website.Pos.singletest.TaxAndDiscountTest#Test_CustomDiscountDisable_WithProductDisableFromLocation_ExpectedUserAbleToApplyDiscounts</h3><table class="result"><tr class="param"><th>Parameter #1</th></tr><tr class="param stripe"><td>Product</td></tr></table><p class="totop"><a href="#summary">back to summary</a></p><h3 id="m126">com.eposly.test.website.Pos.singletest.TaxAndDiscountTest#Test_CustomDiscountDisable_WithProductDisableFromLocation_ExpectedUserAbleToApplyDiscounts</h3><table class="result"><tr class="param"><th>Parameter #1</th></tr><tr class="param stripe"><td>Bundle</td></tr></table><p class="totop"><a href="#summary">back to summary</a></p><h3 id="m127">com.eposly.test.website.Pos.singletest.TaxAndDiscountTest#Test_CustomDiscountEnabled_InUserLocation_WithProductEnableChangeDiscount_ExpectedDiscountLimitRestriction_FromUserLocation</h3><table class="result"><tr class="param"><th>Parameter #1</th></tr><tr class="param stripe"><td>Bundle</td></tr></table><p class="totop"><a href="#summary">back to summary</a></p><h3 id="m128">com.eposly.test.website.Pos.singletest.TaxAndDiscountTest#Test_CustomDiscountEnabled_InUserLocation_WithProductEnableChangeDiscount_ExpectedDiscountLimitRestriction_FromUserLocation</h3><table class="result"><tr class="param"><th>Parameter #1</th></tr><tr class="param stripe"><td>Product</td></tr></table><p class="totop"><a href="#summary">back to summary</a></p><h3 id="m129">com.eposly.test.website.Pos.singletest.TaxAndDiscountTest#Test_CustomDiscountEnabled_WithLimitInUserLocation_WithProductConfiguration_DisableDiscount_ExpectedNoDiscountAppliedOnOrder</h3><table class="result"><tr class="param"><th>Parameter #1</th></tr><tr class="param stripe"><td>Bundle</td></tr></table><p class="totop"><a href="#summary">back to summary</a></p><h3 id="m130">com.eposly.test.website.Pos.singletest.TaxAndDiscountTest#Test_CustomDiscountEnabled_WithLimitInUserLocation_WithProductConfiguration_DisableDiscount_ExpectedNoDiscountAppliedOnOrder</h3><table class="result"><tr class="param"><th>Parameter #1</th></tr><tr class="param stripe"><td>Product</td></tr></table><p class="totop"><a href="#summary">back to summary</a></p><h3 id="m131">com.eposly.test.website.Pos.singletest.TaxAndDiscountTest#Test_DiscountEnableWithProductChangeDiscountBands_ExpectedUserAbleToApply_DiscountBandApplied</h3><table class="result"><tr class="param"><th>Parameter #1</th></tr><tr class="param stripe"><td>Product</td></tr></table><p class="totop"><a href="#summary">back to summary</a></p><h3 id="m132">com.eposly.test.website.Pos.singletest.TaxAndDiscountTest#Test_DiscountEnableWithProductChangeDiscountBands_ExpectedUserAbleToApply_DiscountBandApplied</h3><table class="result"><tr class="param"><th>Parameter #1</th></tr><tr class="param stripe"><td>Bundle</td></tr></table><p class="totop"><a href="#summary">back to summary</a></p><h3 id="m133">com.eposly.test.website.Pos.singletest.TaxAndDiscountTest#Test_UserCustomDiscountApplyAs_DiscountAmountZeroText_WhenDiscountLimitIs100</h3><table class="result"></table><p class="totop"><a href="#summary">back to summary</a></p><h3 id="m134">com.eposly.test.website.Pos.singletest.TaxAndDiscountTest#Test_UserCustomDiscountApplyAs_ProductAmount_WhenLessThanProductPrice</h3><table class="result"></table><p class="totop"><a href="#summary">back to summary</a></p><h3 id="m135">com.eposly.test.website.Pos.singletest.TaxAndDiscountTest#Test_UserCustomDiscountApplyAs_ProductDiscountAmount_WhenMoreThanProductPrice_ExpectedLimitRestrictionError</h3><table class="result"></table><p class="totop"><a href="#summary">back to summary</a></p><h3 id="m136">com.eposly.test.website.Pos.singletest.TaxAndDiscountTest#Test_UserCustomDiscountLimitOnUserLocation_EditOnProductDiscountPercentage_WhenLessThanLimit_ExpectedNoError</h3><table class="result"></table><p class="totop"><a href="#summary">back to summary</a></p><h3 id="m137">com.eposly.test.website.Pos.singletest.TaxAndDiscountTest#Test_UserCustomDiscountLimit_OnUserLocations_EditOnProductPercentage_WhenMoreThanLimit_ExpectedLimitRestrictionError</h3><table class="result"></table><p class="totop"><a href="#summary">back to summary</a></p></body></html>
+<!DOCTYPE html>
+<html>
+
+<head>
+	<meta charset='utf-8' /> 
+	<meta name='description' content='' />
+	<meta name='robots' content='noodp, noydir' />
+	<meta name='viewport' content='width=device-width, initial-scale=1' />
+	<meta id="timeStampFormat" name="timeStampFormat" content='EEEE, MMMM dd, yyyy, hh:mm a '('zzz')''/>
+	
+	<link href='https://fonts.googleapis.com/css?family=Source+Sans+Pro:400,600' rel='stylesheet' type='text/css' />
+	<link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet" />
+	<link href='https://cdn.rawgit.com/extent-framework/extent-github-cdn/191775216e8ce53c38791eb07a1d2f31d0ae11b5/v3html/css/extent.css' type='text/css' rel='stylesheet' />
+	
+	<title>LPOS Automation Test Report</title>
+
+	<style type='text/css'>
+		/* json-tree */
+		.jstBracket,.jstComma,.jstValue{white-space:pre-wrap}.jstValue{font-size:10px;font-weight:400;font-family:"Lucida Console",Monaco,monospace}.jstProperty{color:#666;word-wrap:break-word}.jstBool{color:#2525CC}.jstNum{color:#D036D0}.jstNull{color:gray}.jstStr{color:#2DB669}.jstFold:after{content:' -';cursor:pointer}.jstExpand{white-space:normal}.jstExpand:after{content:' +';cursor:pointer}.jstFolded{white-space:normal!important}.jstHiddenBlock{display:none}
+	</style>
+	
+	<script type="text/javascript">
+		/*! json-tree - v0.2.2 - 2017-09-25, MIT LICENSE */
+		var JSONTree=function(){var n={"&":"&amp;","<":"&lt;",">":"&gt;",'"':"&quot;","'":"&#x27;","/":"&#x2F;"},t=0,r=0;this.create=function(n,t){return r+=1,N(u(n,0,!1),{class:"jstValue"})};var e=function(t){return t.replace(/[&<>'"]/g,function(t){return n[t]})},s=function(){return r+"_"+t++},u=function(n,t,r){if(null===n)return f(r?t:0);switch(typeof n){case"boolean":return l(n,r?t:0);case"number":return i(n,r?t:0);case"string":return o(n,r?t:0);default:return n instanceof Array?a(n,t,r):c(n,t,r)}},c=function(n,t,r){var e=s(),u=Object.keys(n).map(function(r){return j(r,n[r],t+1,!0)}).join(m()),c=[g("{",r?t:0,e),N(u,{id:e}),p("}",t)].join("\n");return N(c,{})},a=function(n,t,r){var e=s(),c=n.map(function(n){return u(n,t+1,!0)}).join(m());return[g("[",r?t:0,e),N(c,{id:e}),p("]",t)].join("\n")},o=function(n,t){var r=e(JSON.stringify(n));return N(v(r,t),{class:"jstStr"})},i=function(n,t){return N(v(n,t),{class:"jstNum"})},l=function(n,t){return N(v(n,t),{class:"jstBool"})},f=function(n){return N(v("null",n),{class:"jstNull"})},j=function(n,t,r){var s=v(e(JSON.stringify(n))+": ",r),c=N(u(t,r,!1),{});return N(s+c,{class:"jstProperty"})},m=function(){return N(",\n",{class:"jstComma"})},N=function(n,t){return d("span",t,n)},d=function(n,t,r){return"<"+n+Object.keys(t).map(function(n){return" "+n+'="'+t[n]+'"'}).join("")+">"+r+"</"+n+">"},g=function(n,t,r){return N(v(n,t),{class:"jstBracket"})+N("",{class:"jstFold",onclick:"JSONTree.toggle('"+r+"')"})};this.toggle=function(n){var t=document.getElementById(n),r=t.parentNode,e=t.previousElementSibling;""===t.className?(t.className="jstHiddenBlock",r.className="jstFolded",e.className="jstExpand"):(t.className="",r.className="",e.className="jstFold")};var p=function(n,t){return N(v(n,t),{})},v=function(n,t){return Array(2*t+1).join(" ")+n};return this}();
+	</script>
+</head>
+	<body class='extent dark default hide-overflow '>
+		<div id='theme-selector' alt='Click to toggle theme. To enable by default, use theme configuration.' title='Click to toggle theme. To enable by default, use theme configuration.'>
+			<span><i class='material-icons'>desktop_windows</i></span>
+		</div>
+<nav>
+	<div class="nav-wrapper">
+		<a href="#!" class="brand-logo black"><img src="https://cdn.rawgit.com/extent-framework/extent-github-cdn/d74480e/commons/img/logo.png"></a>
+		<!-- slideout menu -->
+		<ul id='slide-out' class='side-nav fixed hide-on-med-and-down'>
+			<li class='waves-effect active'><a href='#!' view='test-view' onclick="configureView(0);chartsView('test');"><i class='material-icons'>dashboard</i></a></li>
+						<li class='waves-effect'><a href='#!' onclick="configureView(-1);chartsView('dashboard');" view='dashboard-view'><i class='material-icons'>track_changes</i></a></li>
+		</ul>
+		<!-- report name -->
+		<span class='report-name'>LPOS Automation Test Report</span>
+		<!-- report headline -->
+		<span class='report-headline'></span>
+		<!-- nav-right -->
+		<ul id='nav-mobile' class='right hide-on-med-and-down nav-right'>
+			<a href='#!'>
+			<span class='label blue darken-3 suite-start-time'>Tuesday, June 25, 2024, 12:30 PM (IST)</span>
+			</a>
+		</ul>
+	</div>
+</nav>		<!-- container -->
+		<div class='container'>
+<div id='test-view' class='view'>
+	<section id='controls'>
+		<div class='controls grey lighten-4'>
+			<!-- test toggle -->
+			<div class='chip transparent'>
+				<a class='dropdown-button tests-toggle' data-activates='tests-toggle' data-constrainwidth='true' data-beloworigin='true' data-hover='true' href='#'>
+				<i class='material-icons'>warning</i> Status
+				</a>
+				<ul id='tests-toggle' class='dropdown-content'>
+										<li status='pass'><a href='#!'>Pass <i class='material-icons green-text'>check_circle</i></a></li>
+					<li class='divider'></li>
+					<li status='clear' clear='true'><a href='#!'>Clear Filters <i class='material-icons'>clear</i></a></li>
+				</ul>
+			</div>
+			<!-- test toggle -->
+			<!-- category toggle -->
+			<!-- category toggle -->
+			<!-- clear filters -->
+			<div class='chip transparent hide'>
+				<a class='' id='clear-filters' alt='Clear Filters' title='Clear Filters'>
+				<i class='material-icons'>close</i> Clear
+				</a>
+			</div>
+			<!-- clear filters -->
+			<!-- enable dashboard -->
+			<div id='toggle-test-view-charts' class='chip transparent'>
+				<a class='pink-text' id='enable-dashboard' alt='Enable Dashboard' title='Enable Dashboard'>
+				<i class='material-icons'>track_changes</i> Dashboard
+				</a>
+			</div>
+			<!-- enable dashboard -->
+			<!-- search -->
+			<div class='chip transparent' alt='Search Tests' title='Search Tests'>
+				<a href="#" class='search-div'>
+				<i class='material-icons'>search</i> Search
+				</a>
+				<div class='input-field left hide'>
+					<input id='search-tests' type='text' class='validate browser-default' placeholder='Search Tests...'>
+				</div>
+			</div>
+			<!-- search -->
+		</div>
+	</section>
+<div id='test-view-charts' class='subview-full'>
+	<div id='charts-row' class='row nm-v nm-h'>
+		<div class='col s12 m6 l6 np-h'>
+			<div class='card-panel nm-v'>
+				<div class='left panel-name'>Tests</div>
+				<div class='chart-box' style="max-height:94px;">
+					<canvas id='parent-analysis' width='100' height='80'></canvas>
+				</div>
+				<div class='block text-small'>
+					<span class='tooltipped' data-position='top' data-tooltip='100%'><span class='strong'>5</span> test(s) passed</span>
+				</div>
+				<div class='block text-small'>
+					<span class='strong tooltipped' data-position='top' data-tooltip='0%'>0</span> test(s) failed, <span class='strong tooltipped' data-position='top' data-tooltip='0%'>0</span> others
+				</div>
+			</div>
+		</div>
+	</div>
+	<div id="timeline-chart" class="row nm-v nm-h">
+		<div class="col s12 m12 l12 np-h">
+			<div class="card-panel">
+				<div class='left panel-name'>Timeline (seconds)</div>
+				<div class="chart-box" style="width:98%;max-height:145px;">
+					<canvas id="timeline" height="120"></canvas>
+				</div>
+			</div>
+		</div>
+	</div>
+</div>	<div class='subview-left left'>
+		<div class='view-summary'>
+			<ul id='test-collection' class='test-collection'>
+				<li class='test displayed active  pass' status='pass' bdd='false' test-id='1'>
+					<div class='test-heading'>
+						<span class='test-name'>Test_ClientAccount_CreditByManualTransaciton_ExpectedBalanceGetCredited</span>
+						<span class='test-time'>Tuesday, June 25, 2024, 12:31 PM (IST)</span>
+						<span class='test-status right pass'>pass</span>
+					</div>
+					<div class='test-content hide'>
+<div class='test-time-info'>
+	<span class='label start-time'>Tuesday, June 25, 2024, 12:31 PM (IST)</span>
+	<span class='label end-time'>Tuesday, June 25, 2024, 12:34 PM (IST)</span>
+	<span class='label time-taken grey lighten-1 white-text'>0h 2m 59s+852ms</span>
+</div>
+<div class='test-steps'>
+	<table class='bordered table-results'>
+		<thead>
+			<tr>
+				<th>Status</th>
+				<th>Timestamp</th>
+				<th>Details</th>
+			</tr>
+		</thead>
+		<tbody>
+			<tr class='log' status='pass'>
+				<td class='status pass' title='pass' alt='pass'><i class='material-icons'>check_circle</i></td>
+				<td class='timestamp'>12:34:48 PM</td>
+				<td class='step-details'>
+						SUCCESSFUL
+					
+				</td>
+			</tr>
+		</tbody>
+	</table>
+</div>
+					</div>
+				</li>
+				<li class='test displayed active  pass' status='pass' bdd='false' test-id='2'>
+					<div class='test-heading'>
+						<span class='test-name'>Test_ClientAccount_DebitByManualTransaciton_ExpectedBalanceGetDebited</span>
+						<span class='test-time'>Tuesday, June 25, 2024, 12:36 PM (IST)</span>
+						<span class='test-status right pass'>pass</span>
+					</div>
+					<div class='test-content hide'>
+<div class='test-time-info'>
+	<span class='label start-time'>Tuesday, June 25, 2024, 12:36 PM (IST)</span>
+	<span class='label end-time'>Tuesday, June 25, 2024, 12:38 PM (IST)</span>
+	<span class='label time-taken grey lighten-1 white-text'>0h 2m 57s+510ms</span>
+</div>
+<div class='test-steps'>
+	<table class='bordered table-results'>
+		<thead>
+			<tr>
+				<th>Status</th>
+				<th>Timestamp</th>
+				<th>Details</th>
+			</tr>
+		</thead>
+		<tbody>
+			<tr class='log' status='pass'>
+				<td class='status pass' title='pass' alt='pass'><i class='material-icons'>check_circle</i></td>
+				<td class='timestamp'>12:38:58 PM</td>
+				<td class='step-details'>
+						SUCCESSFUL
+					
+				</td>
+			</tr>
+		</tbody>
+	</table>
+</div>
+					</div>
+				</li>
+				<li class='test displayed active  pass' status='pass' bdd='false' test-id='3'>
+					<div class='test-heading'>
+						<span class='test-name'>Test_ClientAccount_NewTransaction_WithDifferentCurrency__GBP</span>
+						<span class='test-time'>Tuesday, June 25, 2024, 12:40 PM (IST)</span>
+						<span class='test-status right pass'>pass</span>
+					</div>
+					<div class='test-content hide'>
+<div class='test-time-info'>
+	<span class='label start-time'>Tuesday, June 25, 2024, 12:40 PM (IST)</span>
+	<span class='label end-time'>Tuesday, June 25, 2024, 12:43 PM (IST)</span>
+	<span class='label time-taken grey lighten-1 white-text'>0h 3m 21s+666ms</span>
+</div>
+<div class='test-steps'>
+	<table class='bordered table-results'>
+		<thead>
+			<tr>
+				<th>Status</th>
+				<th>Timestamp</th>
+				<th>Details</th>
+			</tr>
+		</thead>
+		<tbody>
+			<tr class='log' status='pass'>
+				<td class='status pass' title='pass' alt='pass'><i class='material-icons'>check_circle</i></td>
+				<td class='timestamp'>12:43:41 PM</td>
+				<td class='step-details'>
+						SUCCESSFUL
+					
+				</td>
+			</tr>
+		</tbody>
+	</table>
+</div>
+					</div>
+				</li>
+				<li class='test displayed active  pass' status='pass' bdd='false' test-id='4'>
+					<div class='test-heading'>
+						<span class='test-name'>Test_ClientAccount_NewTransaction_WithDifferentCurrency__USD</span>
+						<span class='test-time'>Tuesday, June 25, 2024, 12:45 PM (IST)</span>
+						<span class='test-status right pass'>pass</span>
+					</div>
+					<div class='test-content hide'>
+<div class='test-time-info'>
+	<span class='label start-time'>Tuesday, June 25, 2024, 12:45 PM (IST)</span>
+	<span class='label end-time'>Tuesday, June 25, 2024, 12:48 PM (IST)</span>
+	<span class='label time-taken grey lighten-1 white-text'>0h 3m 23s+255ms</span>
+</div>
+<div class='test-steps'>
+	<table class='bordered table-results'>
+		<thead>
+			<tr>
+				<th>Status</th>
+				<th>Timestamp</th>
+				<th>Details</th>
+			</tr>
+		</thead>
+		<tbody>
+			<tr class='log' status='pass'>
+				<td class='status pass' title='pass' alt='pass'><i class='material-icons'>check_circle</i></td>
+				<td class='timestamp'>12:48:25 PM</td>
+				<td class='step-details'>
+						SUCCESSFUL
+					
+				</td>
+			</tr>
+		</tbody>
+	</table>
+</div>
+					</div>
+				</li>
+				<li class='test displayed active  pass' status='pass' bdd='false' test-id='5'>
+					<div class='test-heading'>
+						<span class='test-name'>Test_NewOrderWithClientAccountBalance</span>
+						<span class='test-time'>Tuesday, June 25, 2024, 12:49 PM (IST)</span>
+						<span class='test-status right pass'>pass</span>
+					</div>
+					<div class='test-content hide'>
+<div class='test-time-info'>
+	<span class='label start-time'>Tuesday, June 25, 2024, 12:49 PM (IST)</span>
+	<span class='label end-time'>Tuesday, June 25, 2024, 12:54 PM (IST)</span>
+	<span class='label time-taken grey lighten-1 white-text'>0h 4m 54s+28ms</span>
+</div>
+<div class='test-steps'>
+	<table class='bordered table-results'>
+		<thead>
+			<tr>
+				<th>Status</th>
+				<th>Timestamp</th>
+				<th>Details</th>
+			</tr>
+		</thead>
+		<tbody>
+			<tr class='log' status='pass'>
+				<td class='status pass' title='pass' alt='pass'><i class='material-icons'>check_circle</i></td>
+				<td class='timestamp'>12:54:41 PM</td>
+				<td class='step-details'>
+						SUCCESSFUL
+					
+				</td>
+			</tr>
+		</tbody>
+	</table>
+</div>
+					</div>
+				</li>
+			</ul>
+		</div>
+	</div>
+	<!-- subview left -->
+	<div class='subview-right left'>
+		<div class='view-summary'>
+			<h5 class='test-name'></h5>
+			<div id='step-filters' class="right">
+				<span class="blue-text" status="info" alt="info" title="info"><i class="material-icons">info_outline</i></span>
+				<span class="green-text" status="pass" alt="pass" title="pass"><i class="material-icons">check_circle</i></span>
+				<span class="red-text" status="fail" alt="fail" title="fail"><i class="material-icons">cancel</i></span>
+				<span class="red-text text-darken-4" status="fatal" alt="fatal" title="fatal"><i class="material-icons">cancel</i></span>
+				<span class="pink-text text-lighten-1" status="error" alt="error" title="error"><i class="material-icons">error</i></span>
+				<span class="orange-text" alt="warning" status="warning" title="warning"><i class="material-icons">warning</i></span>
+				<span class="teal-text" status="skip" alt="skip" title="skip"><i class="material-icons">redo</i></span>
+				<span status="clear" alt="Clear filters" title="Clear filters"><i class="material-icons">clear</i></span>
+			</div>
+		</div>
+	</div>
+	<!-- subview right -->
+</div>
+<!-- test view --><!-- category view --><!-- exception view --><div id='dashboard-view' class='view hide'>
+	<div class='card-panel transparent np-v'>
+		<h5>Dashboard</h5>
+
+		<div class='row'>
+			<div class='col s2'>
+				<div class='card-panel r'>
+					Tests
+					<div class='panel-lead'>5</div>
+				</div>
+			</div>
+			<div class='col s2'>
+				<div class='card-panel r'>
+					Steps
+					<div class='panel-lead'>0</div>
+				</div>
+			</div>
+			<div class='col s2'>
+				<div class='card-panel r'>
+					Start
+					<div class='panel-lead'>Tuesday, June 25, 2024, 12:30 PM (IST)</div>
+				</div>
+			</div>
+			<div class='col s2'>
+				<div class='card-panel r'>
+			 		End
+			 		<div class='panel-lead'>Tuesday, June 25, 2024, 12:30 PM (IST)</div>
+				</div>
+			</div>
+			<div class='col s2'>
+				<div class='card-panel r'>
+					Time Taken
+					<div class='panel-lead'>0h 0m 0s+0ms</div>
+				</div>
+			</div>
+			<div class='col s4'>
+				<div class='card-panel dashboard-environment'>
+					<span class='right label cyan white-text'>Environment</span><p>&nbsp;</p>
+					
+					<table>
+						<tr>
+							<th>Name</th>
+							<th>Value</th>
+						</tr>
+							<tr>
+								<td>OS</td>
+								<td>win</td>
+							</tr>
+							<tr>
+								<td>Tester</td>
+								<td>LPOS Test Automation Framework</td>
+							</tr>
+					</table>
+				</div>
+			</div>
+		</div>
+	</div>
+</div>
+<!-- dashboard view -->
+<!-- testrunner-logs view -->		</div>
+		<!-- container -->
+		<script>
+			var statusGroup = {
+				passParent: 5,
+				failParent: 0,
+				fatalParent: 0,
+				errorParent: 0,
+				warningParent: 0,
+				skipParent: 0,
+				exceptionsParent: 0,
+				
+				passChild: 0,
+				failChild: 0,
+				fatalChild: 0,
+				errorChild: 0,
+				warningChild: 0,
+				skipChild: 0,
+				infoChild: 0,
+				debugChild: 0,
+				exceptionsChild: 0,
+				
+				passGrandChild: 0,
+				failGrandChild: 0,
+				fatalGrandChild: 0,
+				errorGrandChild: 0,
+				warningGrandChild: 0,
+				skipGrandChild: 0,
+				infoGrandChild: 0,
+				debugGrandChild: 0,
+				exceptionsGrandChild: 0,
+			};
+		</script>
+		<script>
+			var timeline = {
+			        "Test_ClientAccount_CreditByManualTransaciton_ExpectedBalanceGetCredited":179.852,"Test_ClientAccount_DebitByManualTransaciton_ExpectedBalanceGetDebited":177.51,"Test_ClientAccount_NewTransaction_WithDifferentCurrency__GBP":201.666,"Test_ClientAccount_NewTransaction_WithDifferentCurrency__USD":203.255,"Test_NewOrderWithClientAccountBalance":294.028
+			};
+		</script>
+		<script src='https://cdn.rawgit.com/extent-framework/extent-github-cdn/master/v3html/js/extent.js' type='text/javascript'></script>
+		<script type='text/javascript'>
+		</script>
+	</body>
+</html>
